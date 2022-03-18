@@ -13,17 +13,16 @@
 <body>
     <div class="wrapper">
         <section>
-
+            <img src="./img/clock.svg" alt="clock" height="250em">
             <h1>JavaScript Stopwatch</h1>
-
             <p>
                 <span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>
             </p>
             <div class="wrapper-button">
-                <input onclick="start()" id="start" class="button -start" type="button" value="Start">
-                <input onclick="reset()" id="reset" class="button" type="reset" value="Reset">
+                <button class="button" id="start">Start</button>
+                <button class="button" id="stop">Stop</button>
+                <button class="button" id="reset">Reset</button>
             </div>
-
         </section>
     </div>
     <script src="script.js"></script>
